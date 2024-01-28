@@ -1,0 +1,17 @@
+.settings/
+.myeclipse/
+.gradle/
+target/
+*/.settings
+*/.classpath
+*/.project
+.classpath
+.project
+.idea/
+.svn/
+log/
+*.iml
+gradle/
+.metadata/
+*/node_modules
+node_modules
