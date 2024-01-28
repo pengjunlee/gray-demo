@@ -22,7 +22,7 @@
     </modules>
 
     <properties>
-
+        <demo.version>1.0-SNAPSHOT</demo.version>
         <bingo.version>1.0-SNAPSHOT</bingo.version>
     </properties>
 
@@ -35,6 +35,36 @@
                 <groupId>com.pengjunlee.bingo</groupId>
                 <artifactId>gray-bingo-starter</artifactId>
                 <version>${bingo.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.pengjunlee.bingo</groupId>
+                <artifactId>gray-bingo-mybatis</artifactId>
+                <version>${bingo.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.pengjunlee.bingo.demo</groupId>
+                <artifactId>demo-dao</artifactId>
+                <version>${demo.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.pengjunlee.bingo.demo</groupId>
+                <artifactId>demo-common</artifactId>
+                <version>${demo.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.pengjunlee.bingo.demo</groupId>
+                <artifactId>demo-api</artifactId>
+                <version>${demo.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.pengjunlee.bingo.demo</groupId>
+                <artifactId>demo-adapter</artifactId>
+                <version>${demo.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.pengjunlee.bingo.demo</groupId>
+                <artifactId>demo-api-impl</artifactId>
+                <version>${demo.version}</version>
             </dependency>
         </dependencies>
 
