@@ -8,16 +8,10 @@ bingo:
   db:
     default:
       driver-class-name: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://192.168.2.2:3306/mr_doc?useUnicode=true&characterEncoding=utf-8&allowPublicKeyRetrieval=true&allowMultiQueries=true&useSSL=false&&serverTimezone=GMT%2B8
-      username: root
-      password: '123456'
-
-    blossom:
-      driver-class-name: com.mysql.cj.jdbc.Driver
       url: jdbc:mysql://192.168.2.2:3306/blossom?useUnicode=true&characterEncoding=utf-8&allowPublicKeyRetrieval=true&allowMultiQueries=true&useSSL=false&&serverTimezone=GMT%2B8
       username: root
       password: '123456'
 
   mapping:
     db:
-      blossom: blossom,blog
+      blossom: blossom
