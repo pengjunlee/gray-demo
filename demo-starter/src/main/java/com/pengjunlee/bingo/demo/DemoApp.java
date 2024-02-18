@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @版本 1.0
  * @日期 2024-01-28 13:01
  */
-@SpringBootApplication(scanBasePackages = {"com.pengjunlee"})
+@SpringBootApplication(scanBasePackages = {"com.bingo","com.pengjunlee"})
 public class DemoApp extends BingoStarter {
 
     public static void main(String[] args) {
