@@ -2,6 +2,7 @@
 .myeclipse/
 .gradle/
 target/
+logs/
 */.settings
 */.classpath
 */.project
