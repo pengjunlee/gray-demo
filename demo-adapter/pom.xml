@@ -22,5 +22,26 @@
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    
+    <dependencies>
+        <dependency>
+            <groupId>com.pengjunlee.bingo.demo</groupId>
+            <artifactId>demo-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.pengjunlee.bingo</groupId>
+            <artifactId>gray-bingo-tracker</artifactId>
+        </dependency>
+
+        <dependency>
+
+
+
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>5.3.29</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
 </project>

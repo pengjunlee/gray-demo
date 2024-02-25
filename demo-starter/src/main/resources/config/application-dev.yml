@@ -2,8 +2,20 @@ bingo:
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫ helper ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   helper:
     caffeine: open
-    dynamic: open
-
+    tracker: open
+  tracker:
+    items:
+      aspect: true
+      spring: true
+    collector:
+      enabled: true # 关闭收集器
+      max-cache: 5
+      rate: 1000
+    repository:
+      type: disk # 关闭存储
+      disk:
+        use-pid: true
+        log-dir: /logs/tracker
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫ dynamic datasource ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   db:
     default:

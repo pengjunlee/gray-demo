@@ -42,6 +42,16 @@
                 <version>${bingo.version}</version>
             </dependency>
             <dependency>
+                <groupId>com.pengjunlee.bingo</groupId>
+                <artifactId>gray-bingo-cache</artifactId>
+                <version>${bingo.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.pengjunlee.bingo</groupId>
+                <artifactId>gray-bingo-tracker</artifactId>
+                <version>${bingo.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>com.pengjunlee.bingo.demo</groupId>
                 <artifactId>demo-dao</artifactId>
                 <version>${demo.version}</version>

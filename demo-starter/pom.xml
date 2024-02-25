@@ -30,7 +30,11 @@
         </dependency>
         <dependency>
             <groupId>com.pengjunlee.bingo.demo</groupId>
-            <artifactId>demo-dao</artifactId>
+            <artifactId>demo-adapter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.pengjunlee.bingo.demo</groupId>
+            <artifactId>demo-api-impl</artifactId>
         </dependency>
     </dependencies>
 

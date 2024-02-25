@@ -24,9 +24,9 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>com.pengjunlee.bingo</groupId>
-            <artifactId>gray-bingo-mybatis</artifactId>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.pengjunlee.bingo</groupId>-->
+<!--            <artifactId>gray-bingo-mybatis</artifactId>-->
+<!--        </dependency>-->
     </dependencies>
 </project>
