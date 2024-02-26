@@ -4,9 +4,9 @@ bingo:
     caffeine: open
     tracker: open
   tracker:
-    items:
-      aspect: true
-      spring: true
+    enables:
+      - aspect
+      - spring
     collector:
       enabled: true # 关闭收集器
       max-cache: 5

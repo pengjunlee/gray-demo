@@ -25,10 +25,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.pengjunlee.bingo</groupId>
-            <artifactId>gray-bingo-starter</artifactId>
-        </dependency>
-        <dependency>
             <groupId>com.pengjunlee.bingo.demo</groupId>
             <artifactId>demo-adapter</artifactId>
         </dependency>

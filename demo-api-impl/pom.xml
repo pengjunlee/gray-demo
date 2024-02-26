@@ -30,14 +30,18 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>5.3.29</version>
-            <scope>compile</scope>
+            <groupId>com.pengjunlee.bingo.demo</groupId>
+            <artifactId>demo-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.pengjunlee.bingo.demo</groupId>
+            <artifactId>demo-dao</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.pengjunlee.bingo</groupId>
-            <artifactId>gray-bingo-tracker</artifactId>
+            <artifactId>gray-bingo-cache</artifactId>
         </dependency>
     </dependencies>
 </project>
