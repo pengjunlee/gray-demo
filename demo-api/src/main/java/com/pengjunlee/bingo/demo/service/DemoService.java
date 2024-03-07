@@ -1,4 +1,4 @@
-package com.pengjunlee.bingo.demo.service;
+package gray.bingo.demo.service;
 
 public interface DemoService {
 

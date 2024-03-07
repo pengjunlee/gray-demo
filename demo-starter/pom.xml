@@ -25,6 +25,10 @@
 
     <dependencies>
         <dependency>
+            <groupId>gray.bingo</groupId>
+            <artifactId>gray-bingo-starter</artifactId>
+        </dependency>
+        <dependency>
             <groupId>com.pengjunlee.bingo.demo</groupId>
             <artifactId>demo-adapter</artifactId>
         </dependency>
@@ -44,7 +48,7 @@
                 <version>2.7.11</version>
                 <configuration>
                     <!-- 指定该Main Class为全局的唯一入口 -->
-                    <mainClass>com.pengjunlee.bingo.demo.DemoApp</mainClass>
+                    <mainClass>gray.bingo.demo.DemoApp</mainClass>
                     <includeSystemScope>true</includeSystemScope>
                     <!--                    <layout>ZIP</layout>-->
                 </configuration>

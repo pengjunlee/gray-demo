@@ -32,22 +32,22 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.pengjunlee.bingo</groupId>
+                <groupId>gray.bingo</groupId>
                 <artifactId>gray-bingo-starter</artifactId>
                 <version>${bingo.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.pengjunlee.bingo</groupId>
+                <groupId>gray.bingo</groupId>
                 <artifactId>gray-bingo-mybatis</artifactId>
                 <version>${bingo.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.pengjunlee.bingo</groupId>
+                <groupId>gray.bingo</groupId>
                 <artifactId>gray-bingo-cache</artifactId>
                 <version>${bingo.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.pengjunlee.bingo</groupId>
+                <groupId>gray.bingo</groupId>
                 <artifactId>gray-bingo-tracker</artifactId>
                 <version>${bingo.version}</version>
             </dependency>

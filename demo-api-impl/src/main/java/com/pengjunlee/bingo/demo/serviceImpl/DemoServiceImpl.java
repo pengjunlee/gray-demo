@@ -1,7 +1,7 @@
 package com.pengjunlee.bingo.demo.serviceImpl;
 
-import com.bingo.tracker.adapter.aspect.TrackerStart;
-import com.pengjunlee.bingo.demo.service.DemoService;
+import gray.bingo.demo.service.DemoService;
+import gray.bingo.tracker.adapter.aspect.TrackerStart;
 import org.springframework.stereotype.Service;
 
 @Service
