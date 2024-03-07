@@ -6,8 +6,7 @@ grayApplication
 ## 软件架构
 - starter 里面只有一个启动类
 - adapter 对外能力统一入口适配器
-- context 全局公用类定义：枚举、工具类、常量等
-- domain 核心业务处理逻辑，及entity、repo、sao、vo定义
+- common 全局公用类定义：枚举、工具类、常量等
 - factory 领域对象实体、数据库对象实体之间转换工厂定义
 - service 服务定义
 - implement 服务Service实现类，不处理业务，只做编排
