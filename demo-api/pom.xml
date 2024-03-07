@@ -6,7 +6,7 @@
 
     <parent>
         <groupId>com.pengjunlee.bingo.demo</groupId>
-        <artifactId>gray-bingo-demo</artifactId>
+        <artifactId>gray-demo</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 

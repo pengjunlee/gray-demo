@@ -3,6 +3,7 @@ bingo:
   helper:
     caffeine: open
     tracker: open
+    dynamic_db: open
   tracker:
     enables: spring,annotation
     collector:
