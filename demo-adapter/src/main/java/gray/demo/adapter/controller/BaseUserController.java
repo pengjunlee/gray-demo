@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
  * </p>
  *
  * @author 二月菌
- * @since 2024-03-08 22:10:11
+ * @since 2024-03-08 22:18:34
  */
 @RestController
 @RequestMapping("/baseUser")

@@ -391,8 +391,8 @@ public class CodeGenerator {
         String[] tableNames = {"base_user"};
         // GeneratorConfig generatorConfig = GeneratorConfig.createForSingleModule("二月菌", false, "demo-infrastructure", "gray.demo.infrastructure");
         GeneratorConfig generatorConfig = GeneratorConfig.createForMultiModule("二月菌", false,
-                "demo-common", "gray.demo.common.entity", "demo-infrastructure", "gray.demo.infrastructure.dao",
-                "demo-api", "gray.demo.api.service", "demo-api-impl", "gray.demo.apiImpl.service",
+                "demo-common", "gray.demo.common.entity", "demo-infrastructure", "gray.demo.infrastructure.mapper",
+                "demo-infrastructure", "gray.demo.infrastructure.repo", "demo-infrastructure", "gray.demo.infrastructure.repo.impl",
                 "demo-adapter", "gray.demo.adapter.controller"
         );
         generate(builder, tableNames, generatorConfig);

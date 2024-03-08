@@ -1,8 +1,8 @@
-package gray.demo.apiImpl.service;
+package gray.demo.infrastructure.repo.impl;
 
 import gray.demo.common.entity.BaseUser;
 import gray.demo.infrastructure.dao.BaseUserMapper;
-import gray.demo.api.service.BaseUserService;
+import gray.demo.infrastructure.repo.BaseUserService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
  * </p>
  *
  * @author 二月菌
- * @since 2024-03-08 22:10:11
+ * @since 2024-03-08 22:18:34
  */
 @Service
 public class BaseUserServiceImp extends ServiceImpl<BaseUserMapper, BaseUser> implements BaseUserService {
