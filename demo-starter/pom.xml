@@ -48,7 +48,7 @@
                 <version>2.7.11</version>
                 <configuration>
                     <!-- 指定该Main Class为全局的唯一入口 -->
-                    <mainClass>gray.bingo.demo.DemoApp</mainClass>
+                    <mainClass>gray.demo.starter.DemoApp</mainClass>
                     <includeSystemScope>true</includeSystemScope>
                     <!--                    <layout>ZIP</layout>-->
                 </configuration>
