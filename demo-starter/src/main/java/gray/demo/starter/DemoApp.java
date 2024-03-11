@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @日期 2024-01-28 13:01
  */
 @SpringBootApplication(scanBasePackages = {"gray.demo","gray.bingo"})
-@MapperScan(basePackages = {"com.pengjunlee.bingo.demo.dao"})
+@MapperScan(basePackages = {"gray.demo.infrastructure.mapper"})
 public class DemoApp extends BingoStarter {
 
     public static void main(String[] args) {

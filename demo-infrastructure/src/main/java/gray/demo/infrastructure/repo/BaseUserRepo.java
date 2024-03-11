@@ -9,8 +9,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * </p>
  *
  * @author 二月菌
- * @since 2024-03-08 22:18:34
+ * @since 2024-03-11 17:45:18
  */
-public interface BaseUserService extends IService<BaseUser> {
+public interface BaseUserRepo extends IService<BaseUser> {
 
 }
