@@ -1,9 +1,9 @@
 bingo:
   # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫ helper ┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   helper:
-    enables: caffeine,tracker,dynamic_db
+    enables: caffeine,tracker,dynamic_db,alidns
   tracker:
-    enables: spring,annotation
+    enables: spring,annotation,async,mysql,feign
     collector:
       enabled: true # 关闭收集器
       max-cache: 5
@@ -34,3 +34,9 @@ bingo:
   slow-sql:
     blossom: '1'
     spug: '1'
+  alidns:
+    domain: javer.love
+    accessKey: LTAI5tBsoTFmJfEGk4V7iaPU
+    secretKey: 22NQRyPUXI0PO0wND6CypGhk0lF8Lv
+    records: '@,www'
+    ipv6: close

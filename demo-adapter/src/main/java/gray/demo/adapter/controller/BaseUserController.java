@@ -27,4 +27,8 @@ public class BaseUserController {
         return baseUserService.getById(id);
     }
 
+    @RequestMapping("/test")
+    public String getById() {
+        return "test";
+    }
 }

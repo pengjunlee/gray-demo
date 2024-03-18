@@ -38,5 +38,9 @@
             <groupId>gray.bingo</groupId>
             <artifactId>gray-bingo-cache</artifactId>
         </dependency>
+        <dependency>
+            <groupId>gray.bingo</groupId>
+            <artifactId>gray-bingo-tools</artifactId>
+        </dependency>
     </dependencies>
 </project>

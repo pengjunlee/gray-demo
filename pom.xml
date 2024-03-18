@@ -48,6 +48,11 @@
             </dependency>
             <dependency>
                 <groupId>gray.bingo</groupId>
+                <artifactId>gray-bingo-tools</artifactId>
+                <version>${bingo.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>gray.bingo</groupId>
                 <artifactId>gray-bingo-tracker</artifactId>
                 <version>${bingo.version}</version>
             </dependency>
